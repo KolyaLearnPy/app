@@ -27,10 +27,53 @@
 # target = 17
 # print(twoSum(nums,target))
 
-x = int(input())
+# x = int(input())
 
-match x:
-    case 5:
-        print("Я долбан{}{}{}{}{}{}{}{}{}")
-    case 69:
-        print('Что это такое?????')
+# match x:
+#     case 5:
+#         print("Я долбан{}{}{}{}{}{}{}{}{}")
+#     case 69:
+#         print('Что это такое?????')
+
+# x = list(input())
+# l = []
+# for i in range(len(x)):
+#     l += x[len(x) - 1 - i]
+# x = "".join(i for i in x)
+# l = "".join(i for i in l)
+# print(l)
+# if l != x:
+#     print("NO")
+
+# x = input()
+# print(x[2])
+# print(x[-2])
+# print(x[:5])
+# print(x[:len(x) - 3])
+# print(x[::2])
+# print(x[1::2])
+# print(x[::-1])
+# print(x[::-2])
+# print(len(x))
+
+# x = input()
+# print(x[:x.find("h")] + x[x.rfind("h") + 1:])
+
+# x = str(input())
+# print(x.replace("1","one"))
+
+# x = list(input())
+# for i in range(len(x) - 1):
+#     if x[i] == x[i + 1] and x[i] == " ":
+#         x[i] = ""
+# f = str()
+# for i in x:
+#     if i != "":
+#         f += i
+# print(f)
+
+# x = input().split("/")
+# if x[0] == "http:":
+# 	x.pop(1)
+# for i in x:
+# 	print(i)
